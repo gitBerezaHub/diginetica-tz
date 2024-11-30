@@ -1,5 +1,8 @@
 # diginetica-tz
 
+# !!! Первое и второе задание находятся в файле firstAndSecondTasks.js в корне проекта !!!
+
+
 ## Project setup
 ```
 npm install
