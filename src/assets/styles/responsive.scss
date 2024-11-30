@@ -1,0 +1,43 @@
+@media (max-width: 1440px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    &__nav {
+      display: none;
+    }
+  }
+
+  .main {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+    &__container {
+      padding: 0 1rem;
+    }
+  }
+
+  .main {
+    padding: 0 1rem;
+  }
+
+  .products {
+    grid-template-columns: 1fr;
+  }
+}
